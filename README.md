@@ -6,6 +6,6 @@ See the [prototype](https://spudtrooper.github.io/wordpath)
 
 Screen shots:
 
-* [!empty board](empty-board.png)
-* [!partial solution](partial-solution.png)
-* [!full solution](full-solution.png)
+* [empty board](empty-board.png)
+* [partial solution](partial-solution.png)
+* [full solution](full-solution.png)
