@@ -11,7 +11,7 @@ class Game {
       }
       if (e.keyCode == 46 || e.keyCode == 8 || e.keyCode == 91) {
         const c = board.handleDelete();
-        if (c && !c.match(/[a-z0-9]/i)) {
+        if (!c || !c.match(/[a-z0-9]/i)) {
           return;
         }
         letters.addLetter(c);

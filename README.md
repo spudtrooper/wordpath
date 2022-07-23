@@ -1,6 +1,6 @@
 # wordpath
 
-A word game where you try to connect words (scrabble-style) from a start square to and end square and avoid obstacles along the way. I'm certain this is going to be my ticket to fame and fortune.
+A word game where you try to connect words (scrabble-style) from a start square to and end square and avoid obstacles along the way.
 
 See the [prototype](https://spudtrooper.github.io/wordpath)
 
