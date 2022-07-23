@@ -12,8 +12,4 @@ A partial solution looks like this:
 
 ![Partial solution](partial-solution.png)
 
-Screen shots:
-
-* [empty board](https://raw.githubusercontent.com/spudtrooper/wordpath/main/empty-board.png)
-* [partial solution](https://raw.githubusercontent.com/spudtrooper/wordpath/main/partial-solution.png)
-* [full solution](https://raw.githubusercontent.com/spudtrooper/wordpath/main/solution.png)
+See the [full solution](https://raw.githubusercontent.com/spudtrooper/wordpath/main/solution.png) you fucking cheater.
