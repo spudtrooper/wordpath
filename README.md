@@ -2,7 +2,7 @@
 
 A word game where you try to connect words (scrabble-style) from a start square to and end square and avoid obstacles along the way.
 
-See the [prototype](https://spudtrooper.github.io/wordpath)
+See the [prototype](https://jeffpalm.com/wordpath)
 
 An empty board currently looks like this:
 
