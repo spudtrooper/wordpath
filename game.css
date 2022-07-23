@@ -1,0 +1,73 @@
+.game-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: inline;
+}
+
+.board {
+  float: left;
+  margin: 10px;
+  width: 1000px;
+  height: 800px;
+}
+
+.board-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border: 0;
+}
+
+.board-item {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid black;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+.obstacle-board-item {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.destination-board-item {
+  background-color: #00ff00;
+}
+
+.start-board-item {
+  background-color: #0000ff;
+  color: #fff;
+}
+
+.has-letter {
+  background-color: #fffdd0;
+}
+
+.letters {
+  float: left;
+  margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  height: 700px;
+  padding: 10px;
+  display: inline;
+}
+
+.letter {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
