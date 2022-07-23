@@ -1,8 +1,23 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="game.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138785-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138785-4');
+  </script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link id="css" rel="stylesheet" href="">
+  <script>
+    $('#css').attr('href', 'game.css?' + new Date());
+  </script>
   <script src="game.js"></script>
   <script>
     $(document).ready(main);
@@ -10,26 +25,26 @@
 </head>
 
 <body>
+  <div class="game-wrapper">
+    <div id="letters" class="letters"></div>
+    <div id="board" class="board"></div>
+  </div>
   <div class="header">
     <li>
-      This absolutely won't work on your phone.
+      Connect words from the <span class="start-board-item">start square</span> to the <span
+        class="destination-board-item">end square</span>
     </li>
     <li>
-      Connect words from the <span class="start-board-item">start square</span> to the <span class="destination-board-item">end square</span>      
-    </li>
-    <li>
-      To enter a letter, click on square (that's not an <span class="obstacle-board-item">obstacle</span>) to <span class="selected">highlight</span> it and type the letter
+      To enter a letter, click on square (that's not an <span class="obstacle-board-item">obstacle</span>) to <span
+        class="selected">highlight</span> it and type the letter or click a letter
     </li>
     <li>
       You win once you've used all the letters
     </li>
     <li>
-      To cheat: Look at the source, see a <a target="_" href="partial-solution.png">partial solution</a>, or see the <a target="_" href="solution.png">full solution</a>
+      To cheat: Look at the source, see a <a target="_" href="partial-solution.png">partial solution</a>, or see the <a
+        target="_" href="solution.png">full solution</a>
     </li>
-  </div>
-  <div class="game-wrapper">
-    <div id="board" class="board"></div>
-    <div id="letters" class="letters"></div>
   </div>
 </body>
 
