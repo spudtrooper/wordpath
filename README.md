@@ -8,4 +8,4 @@ Screen shots:
 
 * [empty board](empty-board.png)
 * [partial solution](partial-solution.png)
-* [full solution](full-solution.png)
+* [full solution](solution.png)
